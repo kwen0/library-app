@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="headerlogo.png" alt="myreads logo">
+            <input type="text" placeholder="Add a book..." id="searchbar">
+        </div>
+        <div class="modal">
+            <div class="modal-content">
+                <div class="input">Title: <input type="text" id="title"></div>
+                <div class="input">Author: <input type="text" id="author"></div>
+                <div class="input">Status: <select id="status">
+                    <option>Read</option>
+                    <option>Currently reading</option>
+                    <option>Want to read</option>
+                    </select></div>
+                <div class="action">
+                    <button id="submit">Submit</button>
+                    <div class="close">&times;</div>
+                </div>
+            </div>
+        </div>
+        <div id="listOfBooks">
+
+        </div>
+    </body>
+</html>

@@ -8,26 +8,35 @@
     </head>
     <body>
         <div class="header">
-            <img src="headerlogo.png" alt="myreads logo">
-            <input type="text" placeholder="Add a book..." id="searchbar">
+            <img src="headerlogo.png" alt="myreads logo" id="logo">
+            <img src="addbutton.png" alt="add button" id="addBtn">
         </div>
         <div class="modal">
             <div class="modal-content">
-                <div class="input">Title: <input type="text" id="title"></div>
-                <div class="input">Author: <input type="text" id="author"></div>
-                <div class="input">Status: <select id="status">
-                    <option>Read</option>
-                    <option>Currently reading</option>
-                    <option>Want to read</option>
-                    </select></div>
-                <div class="action">
+                <div class="input">
+                    <input type="text" placeholder="Title" id="title">
+                    <input type="text" placeholder="Author" id="author">
+                    <select id="status">
+                        <option value="" disabled selected>Status</option>
+                        <option>Read</option>
+                        <option>Currently reading</option>
+                        <option>Want to read</option>
+                    </select>
                     <button id="submit">Submit</button>
-                    <div class="close">&times;</div>
+                    <button id="cancel">Cancel</button> 
                 </div>
             </div>
         </div>
-        <div id="listOfBooks">
-
+        <div id="container">
+            <table>
+                <thead>
+                    <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Status</th>
+                    </tr>
+                </thead>
+            </table>
         </div>
     </body>
 </html>

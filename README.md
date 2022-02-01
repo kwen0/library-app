@@ -1,9 +1,17 @@
-# library
+# 📚Library
 
-[Live](https://kwen0.github.io/library-app/)
+[Live demo](https://kwen0.github.io/library-app/)
 
-This is a library app made for The Odin Project. Users can add books, change their read status, and remove them from their bookshelf.
+A simple personal library app. Users can add books, change their read status, and remove them.
 
+<img width="700" alt="screenshot" src="screenshot.png">
+
+## Tools Used
+- Plain Javascript
+- HTML
+- CSS
+
+## Reflections
 Creating this solidified my knowledge of:
 - object constructors
 - iterating over arrays
